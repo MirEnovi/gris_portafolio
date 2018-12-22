@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Open+Sans');
 
 body{
-  background-color: rgb(104, 104, 104);
+  background-color: rgb(10, 10, 10);
 }
 
 .font-mm {
@@ -14,8 +14,8 @@ body{
 
 .Home {
   height: 60vh;
-  color: rgb(37, 7, 37);
-  background-image: url(../assets/home.jpg);
+  color: rgb(228, 217, 228);
+  background-image: url(../assets/home1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -23,4 +23,6 @@ body{
 
 h1 {
   margin: 0 !important;
+  text-shadow: 2px 2px #111111;
+  font-weight: 550;
 }

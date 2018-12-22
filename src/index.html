@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Gris Garcia</title>
 
   <!-- Compiled and minified CSS -->
@@ -20,14 +21,20 @@
     <header class="navbar-fixed">
       <nav>
         <div class="nav-wrapper black text-grey text-lighten-5 font-mm">
-          <a href="#home" class="brand-logo left">Gris García</a>
-          <ul id="nav-mobile" class="right">
+          <a href="#home" class="brand-logo">Gris García</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="#">Sobre Gris</a></li>
             <li><a href="#">Proyectos</a></li>
             <li><a href="#">Contacto</a></li>
           </ul>
         </div>
       </nav>
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Sobre Gris</a></li>
+        <li><a href="#">Proyectos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
     </header>
     <section id="home" class="Home">
       <h1 class="font-mm right">Gris García</h1>
@@ -35,8 +42,11 @@
   </div>
 
   <!-- <a href="https://www.freepik.es/fotos-vectores-gratis/fondo">Foto de fondo creado por freepik - www.freepik.es</a> -->
+
   <!--JavaScript at end of body for optimized loading-->
   <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  <script src="./js//index.js"></script>
 </body>
 </body>
 

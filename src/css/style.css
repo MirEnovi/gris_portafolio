@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Open+Sans');
+
+body{
+  background-color: rgb(104, 104, 104);
+}
+
+.font-mm {
+  font-family: 'Major Mono Display', monospace;
+}
+
+.font-os {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Home {
+  height: 60vh;
+  color: rgb(37, 7, 37);
+  background-image: url(../assets/home.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  margin: 0 !important;
+}

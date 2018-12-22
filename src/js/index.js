@@ -1,9 +1,7 @@
 // alert('hola');
+
 document.addEventListener('DOMContentLoaded', () => {
-  // let elems = document.querySelectorAll('.sidenav');
-  // var instances = M.Sidenav.init(elems, options);
+  // var elems = document.querySelectorAll('.sidenav');
+  // var instances = M.Sidenav.init(elems);
   M.AutoInit();
 });
-
-// instance.open();
-// instance.close();

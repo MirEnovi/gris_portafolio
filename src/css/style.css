@@ -13,16 +13,21 @@ body{
 }
 
 .Home {
-  height: 60vh;
+  height: 50vh;
   color: rgb(228, 217, 228);
-  background-image: url(../assets/home1.jpg);
+  background-image: url(../assets/home.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 h1 {
-  margin: 0 !important;
-  text-shadow: 2px 2px #111111;
-  font-weight: 550;
+  margin: 0, 100px !important;
+  text-shadow: 3px 2px #111111;
+  font-weight: 650;
 }
+
+.sidenav-overlay {
+  z-index: auto !important;
+}
+
